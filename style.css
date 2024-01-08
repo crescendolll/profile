@@ -1,0 +1,118 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #D8B980ff; /* ecru */
+  font-family: 'Space Grotesk', sans-serif;
+  color: #421019ff; /* chocolate-cosmos */
+  font-size: 1rem;
+  text-align: center;
+}
+
+a {
+  color: #7F002Bff; /* claret */
+  text-decoration: none;
+}
+
+a:hover {
+  color:  #D8B980ff; /* ecru */
+}
+
+h1 {
+  font-family: 'Inconsolata', sans-serif;
+}
+
+h2 {
+  font-family: 'Space Grotesk';
+  font-variant: small-caps;
+  font-weight: 300;
+  /* font-size: 24px; */
+  line-height: 1;
+}
+
+img {
+  width: 50%;
+  height: auto;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.card {
+  width: 80%;
+  margin: 30px auto;
+  border-radius: 4px;
+  padding: 4%;
+  background-color: #F1E5D0; /* champagne */
+}
+
+.img-round {
+  border-radius: 50%;
+}
+
+.img-center {
+  display:block;
+  margin:auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 10%;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  /* .body {
+    width: 700px;
+  } */
+  body {
+    line-height: 2.25;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  body {
+    line-height: 1.75;
+  }
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  body {
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
